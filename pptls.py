@@ -2,7 +2,7 @@ import random
 
 try:
     def generator():
-        num_random = random.choice(['piedra', 'papel', 'tijera', 'lagarto', 'spock'])
+        tuple_random = random.choice(['piedra', 'papel', 'tijera', 'lagarto', 'spock'])
         data = str(input('Introduce piedra, papel, tijera, lagarto o spock  '))
         win = {'piedra':['tijera', 'lagarto'],
                 'papel':['piedra', 'sopock'], 
