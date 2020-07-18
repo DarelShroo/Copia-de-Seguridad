@@ -12,7 +12,7 @@ try:
                 }
         dic_data= win[data.lower()]
 
-        if data != num_random:
+        if data != tuple_random:
             if num_random in dic_data:
                 print('¡Has ganado!') 
             else:
